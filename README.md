@@ -8,5 +8,5 @@ I've used an input video here but for a realtime experience, all you need to do 
 
 Sorry I couldn't find ay other video but this is how it looks...
 
-<img src="Face_Detection/resultgif.gif" >
+<img src="Face_Detection/resultgif.gif" style="width:500px;height:600px;" >
 
