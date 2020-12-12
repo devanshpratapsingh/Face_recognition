@@ -1,3 +1,4 @@
+import cv2
 import os
 from PIL import  Image
 import numpy as np
@@ -19,5 +20,6 @@ for root, dirs, files in os.walk(image_dir):
             pil_image = Image.open(path).convert("L")#grayscale
             image_array = np.array(pil_image, "uint8")
             print(image_array)
-
-
+            faces = face_classifier.detectMultiScale(gray, 1.5, 5)
+            
+            
