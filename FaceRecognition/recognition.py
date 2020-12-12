@@ -7,6 +7,6 @@ for root, dirs, files in os.walk(image_dir):
     for file in files:
         if file.endswith("jfif") or file.endswith("jpg"):
             path = os.path.join(root, file)
-            lable = os.path.basename(root).replace("","").lower()
-            print(lable, path)
+            label = os.path.basename(root).replace("","").lower()
+            print(label, path)
             
