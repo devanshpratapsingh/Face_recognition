@@ -39,8 +39,8 @@ for root, dirs, files in os.walk(image_dir):
                 y_label.append(id_)
 
 
-print(y_label)
-print(x_train)
+#print(y_label)
+#print(x_train)
 
 with open("labels.pickle","wb") as f:
     pickle.dump(label_ids, f)
