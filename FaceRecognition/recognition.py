@@ -40,7 +40,7 @@ for root, dirs, files in os.walk(image_dir):
 
 
 print(y_label)
-#print(x_train)
+print(x_train)
 
 with open("labels.pickle","wb") as f:
     pickle.dump(label_ids, f)
