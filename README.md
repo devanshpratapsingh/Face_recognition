@@ -4,9 +4,5 @@ This is a simple programme that uses OpenCV and already traines haarcascade mode
 
 Till now I've reached to the point where my model can "detect" a face and eyes in it!
 
-I've used an input video here but for a realtime experience, all you need to do is put 0 or whatever camera you want to give input to in line 6 in place of "testvid.mp4" 
-
-Sorry I couldn't find ay other video but this is how it looks...
-
-<img src="Face_Detection/resultgif.gif" style="width:500px;height:600px;" >
+<img src="Face_Detection/detectiongif.gif" >
 
